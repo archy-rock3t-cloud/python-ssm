@@ -1,0 +1,8 @@
+boto3>=1.21
+
+
+moto>=3
+pytest>=7
+pytest-cov>=3
+pytest-mock>=3
+

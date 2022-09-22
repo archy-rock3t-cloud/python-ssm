@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  ssm:
+    build: .
+    volumes:
+      - ./app:/opt/python_ssm/app
+      - ./tests:/opt/python_ssm/tests
